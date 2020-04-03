@@ -1,0 +1,25 @@
+h1{
+    margin: 5px 5px 20x 5px;
+    font-family: 'Lexend Exa', sans-serif;
+    padding: 10px;
+    text-align: center;
+}
+.container{
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+img{
+    margin: 4px;
+    transition: transform 1s;
+}
+
+img:hover {
+    transform: scale(1.1);
+}
+
+h1:hover {
+    transform: scale(1.1);
+    transition: transform 1s;
+}

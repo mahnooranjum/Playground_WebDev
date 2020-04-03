@@ -1,0 +1,43 @@
+body{
+    background-image: url("landing.jpg");
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+
+header.vc {
+    margin-top: 250px;
+}
+
+header.vc h1 {
+    font-family: 'Righteous', cursive;
+    font-size: 4rem;
+    color: white;
+    transition: all 1s;
+}
+
+header.vc h1:hover{
+    color: goldenrod;
+    transform: scale(1.1);
+}
+
+.btn {
+    margin: 5% auto;
+    padding: 2%;
+    font-weight: 600;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    border-radius: 300px;
+    transition: all 1s;
+
+}
+
+
+.btn:hover {
+    background-color: white;
+    border-color: white;
+    cursor: pointer;
+    transform: scale(1.1)
+}
